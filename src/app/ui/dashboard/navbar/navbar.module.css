@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bgSoft);
+  border-radius: 10px;
+}
+
+.title {
+  color: var(--textSoft);
+  font-weight: 300;
+}
+
+.outer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: var(--bgLight);
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.input {
+  background-color: transparent;
+  border: none;
+  color: var(--text);
+}
+.input:focus {
+  outline: none;
+}
+.icons {
+  display: flex;
+  gap: 10px;
+}
