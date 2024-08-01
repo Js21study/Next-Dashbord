@@ -12,6 +12,7 @@ enum TypePagination {
 interface Props {
   count: number;
 }
+
 const Pagination: FC<Props> = ({ count }) => {
   const searchParams = useSearchParams();
   const { replace } = useRouter();
