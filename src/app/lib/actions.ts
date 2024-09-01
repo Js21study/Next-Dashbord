@@ -37,7 +37,7 @@ export const addUser = async (formData: any) => {
   redirect('/dashboard/users');
 };
 
-// export const updateUser = async (formData) => {
+// export const updateUser = async (formData: any) => {
 //   const { id, username, email, password, phone, address, isAdmin, isActive } =
 //     Object.fromEntries(formData);
 
